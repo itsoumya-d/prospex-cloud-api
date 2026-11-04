@@ -1,0 +1,16 @@
+{
+  "name": "prospex-cloud-api",
+  "root": ".",
+  "sourceRoot": "src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "nx:run-commands",
+      "options": { "command": "nest build" }
+    },
+    "test": {
+      "executor": "nx:run-commands",
+      "options": { "command": "jest --runInBand" }
+    }
+  }
+}
